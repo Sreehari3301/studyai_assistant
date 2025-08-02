@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from "components/ScrollToTop";
-import ErrorBoundary from "components/ErrorBoundary";
-import AuthenticationGuard from "components/ui/AuthenticationGuard";
-import NotFound from "pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
+import ErrorBoundary from "./components/ErrorBoundary";
+import AuthenticationGuard from "./components/ui/AuthenticationGuard";
+import NotFound from "./pages/NotFound";
 import StudyNotesManagement from './pages/study-notes-management';
 import ChatInterface from './pages/chat-interface';
 import UserAuthentication from './pages/user-authentication';
